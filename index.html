@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panattos Alimentos - Se é Panattos, claro que sim!</title>
+  <meta name="description" content="Nossa missão é encantar nossos clientes com a qualidade dos produtos e serviços.">
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="css/inicio.css">
+  
+  <script src="https://kit.fontawesome.com/120e00bc6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header class="cabecalho" id="cabecalhoPrincipal">
+    <div class="container">
+      <div class="cabecalho-conteudo">
+
+        <div class="logo">
+          <a href="#inicio"><img src="assets/images/logo.png" alt="Panattos Alimentos" class="logo-img"></a>
+        </div>
+
+        <nav class="nav-desktop">
+          <a href="#inicio" class="nav-link">Início</a>
+          <a href="html/sobre.html" class="nav-link">Sobre</a>
+          <a href="html/produtos.html" class="nav-link">Produtos</a>
+          <a href="html/contato.html" class="nav-link">Contato</a>
+        </nav>
+
+        <div class="portal-vendas">
+          <button class="btn btn-primario btn-portal" onclick="window.open('https://panattos.zydon.com.br', '_blank')">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Portal do Cliente
+          </button>
+        </div>
+
+        <button class="btn-menu-mobile" id="btnMenuMobile">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+    </div>
+
+    <div class="menu-mobile" id="menuMobile">
+      <div class="menu-mobile-conteudo">
+        <a href="#inicio" class="mobile-nav-link">Início</a>
+        <a href="html/sobre.html" class="mobile-nav-link">Sobre</a>
+        <a href="html/produtos.html" class="mobile-nav-link">Produtos</a>
+        <a href="html/contato.html" class="mobile-nav-link">Contato</a>
+
+        <div class="mobile-contato-extra">
+          <button class="btn btn-primario btn-full" onclick="window.open('https://panattos.zydon.com.br', '_blank')">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Portal do Cliente
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="secao-hero">
+      <div class="hero-overlay"></div> <div class="container">
+
+        <div class="hero-grid">
+          
+          <div class="hero-conteudo">
+            <div class="hero-texto">
+              <h1 class="hero-titulo">
+                Panattos Alimentos
+                <span class="hero-destaque">Se é Panattos, claro que sim!</span>
+              </h1>
+              <p class="hero-descricao">
+                Soluções completas em produtos de panificação congelados para restaurantes,
+                padarias e estabelecimentos comerciais em Minas Gerais e Goiás.
+              </p>
+            </div>
+
+            <div class="hero-botoes">
+              <a href="html/produtos.html" class="btn btn-primario">
+                Nossos Produtos <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="html/contato" class="btn btn-outline">
+                Fale Conosco
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="stat-numero">20+</div>
+                <div class="stat-rotulo">Anos de Experiência</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-clock"></i></div>
+                <div class="stat-numero">24h</div>
+                <div class="stat-rotulo">Produção Contínua</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-truck"></i></div>
+                <div class="stat-numero">4.000+</div>
+                <div class="stat-rotulo">Clientes Atendidos</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-imagem-area">
+            <div class="hero-imagem-container">
+              <div class="carrossel-container">
+                <img src="assets/images/biscoitos.png" alt="Biscoitos" class="carrossel-img active">
+                <img src="assets/images/confeitaria.png" alt="Confeitaria" class="carrossel-img">
+                <img src="assets/images/paes.png" alt="Pães" class="carrossel-img">
+                <img src="assets/images/roscas.png" alt="Roscas" class="carrossel-img">
+                <img src="assets/images/salgados.JPG" alt="Salgados" class="carrossel-img">
+              </div>
+              
+              <div class="carrossel-indicadores">
+                <button class="indicador active" data-slide="0"></button>
+                <button class="indicador" data-slide="1"></button>
+                <button class="indicador" data-slide="2"></button>
+                <button class="indicador" data-slide="3"></button>
+                <button class="indicador" data-slide="4"></button>
+              </div>
+            </div>
+
+            <div class="selo-qualidade">
+              <div class="selo-numero">100%</div>
+              <div class="selo-rotulo">Qualidade Garantida</div>
+            </div>
+          </div>
+
+        </div>        
+      </div>
+    </section>
+
+    <section id="sobre" class="secao-sobre">
+      <div class="container">
+        <div class="sobre-grid">
+          
+          <div class="sobre-conteudo">
+            <div class="sobre-texto">
+              <h2 class="titulo-secao">
+                Sobre a
+                <span class="titulo-destaque">Panattos Alimentos</span>
+              </h2>
+              <p class="descricao-secao">
+                A Panattos Alimentos nasceu no ano de 2008, atuando na industrialização de produtos congelados voltados para o segmento de panificação. Desde então, a empresa vem trilhando um caminho de evolução e de melhoria contínua.
+              </p>
+              <p class="texto-secao">
+                Hoje, a Panattos Alimentos produz mais de 100 produtos, entre pães, roscas, bolos e salgados congelados. Os produtos são transportados em frota nova e em veículos refrigerados, garantindo a máxima qualidade.
+              </p>
+            </div>
+
+            <div class="lista-diferenciais">
+              
+              <div class="diferencial-item">
+                <div class="diferencial-icone">
+                  <i class="fa-solid fa-industry"></i>
+                </div>
+                <div class="diferencial-conteudo">
+                  <h3 class="diferencial-titulo">Instalações Modernas</h3>
+                  <p class="diferencial-desc">Fábrica equipada com tecnologia de ponta e sistemas de controle de qualidade rigorosos.</p>
+                </div>
+              </div>
+
+              <div class="diferencial-item">
+                <div class="diferencial-icone">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="diferencial-conteudo">
+                  <h3 class="diferencial-titulo">Equipe Especializada</h3>
+                  <p class="diferencial-desc">Profissionais experientes e certificados em todas as etapas da produção.</p>
+                </div>
+              </div>
+
+              <div class="diferencial-item">
+                <div class="diferencial-icone">
+                  <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <div class="diferencial-conteudo">
+                  <h3 class="diferencial-titulo">Foco na Qualidade</h3>
+                  <p class="diferencial-desc">Processos padronizados e ingredientes selecionados para garantir excelência.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="certificacoes">
+              <h3 class="certificacoes-titulo">Certificações e Qualidade</h3>
+
+              <div class="certificacoes-grid">
+                <div class="cert-item"><a href="mensagens/Alvara.Funcionamento.Panattos.pdf" target="_blank">
+                  <i class="fa-solid fa-circle-check cert-icone"></i>
+                  <span>Alvará de Funcionamento</span>
+                  </a>
+                </div>
+
+                <div class="cert-item"><a href="mensagens/Alvara.Sanitario.Panattos.pdf" target="_blank">
+                  <i class="fa-solid fa-circle-check cert-icone"></i>
+                  <span>Alvará Sanitário</span>
+                  </a>
+                </div>
+
+                <div class="cert-item"><a href="mensagens/Politica.Anticorrupcao.pdf" target="_blank">
+                  <i class="fa-solid fa-circle-check cert-icone"></i>
+                  <span>Política Anticorrupção</span>
+                  </a>
+                </div>
+
+                <div class="cert-item"><a href="mensagens/Politica.AntiSpam.pdf" target="_blank">
+                  <i class="fa-solid fa-circle-check cert-icone"></i>
+                  <span>Política Anti-SPAM</span>
+                  </a>
+                </div>
+
+                <div class="cert-item"><a href="mensagens/Politica.Privacidade.pdf" target="_blank">
+                  <i class="fa-solid fa-circle-check cert-icone"></i>
+                  <span>Política de Privacidade</span>
+                  </a>
+                </div>
+
+                <div class="cert-item"><a href="mensagens/Transparencia022025.pdf" target="_blank">
+                  <i class="fa-solid fa-circle-check cert-icone"></i>
+                  <span>Transparência</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="sobre-imagem-area">
+
+            <div class="sobre-img-container">
+              <img src="assets/images/panattos.jpeg" alt="Instalações industriais Panattos" class="sobre-img">
+            </div>
+
+            <div class="sobre-stats">
+              <div class="sobre-stat-item">
+                <div class="sobre-stat-numero">100+</div>
+                <div class="sobre-stat-rotulo">Produtos</div>
+              </div>
+              <div class="sobre-stat-item">
+                <div class="sobre-stat-numero">400+</div>
+                <div class="sobre-stat-rotulo">Colaboradores</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" class="secao-produtos">
+      <div class="produtos-overlay"></div>
+      <div class="container">
+        <div class="cabecalho-secao">
+          <h2 class="titulo-secao">
+            Nossa Linha de <span class="titulo-destaque">Produtos Congelados</span>
+          </h2>
+          <p class="descricao-secao">Oferecemos uma grande linha de produtos para seu negócio.</p>
+        </div>
+
+        <div class="produtos-grid">
+          <a href="html/produtos.html" class="card-produto-link">
+            <div class="card-produto">
+              <div class="img-produto">
+                <img src="assets/images/massafolhada.png" alt="Massa Folhada">
+                <span class="badge-produto badge-vermelho">Novidade</span>
+              </div>
+              <div class="conteudo-produto">
+                <h3 class="titulo-produto">Massa Folhada</h3>
+                <p class="desc-produto">Camadas levíssimas de sabor! Crocância inconfundível e o recheio que você ama. Perfeita para quem busca sofisticação e leveza.</p>
+                <button class="btn btn-outline">Ver Detalhes</button>
+              </div>
+            </div>
+          </a>
+          
+          <a href="html/produtos.html" class="card-produto-link">
+            <div class="card-produto">
+              <div class="img-produto">
+                <img src="assets/images/biscoitos.png" alt="Biscoitos">
+              </div>
+              <div class="conteudo-produto">
+                <h3 class="titulo-produto">Biscoitos</h3>
+                <p class="desc-produto">Momentos de ternura em cada mordida. Do clássico ao exclusivo, a companhia ideal para seu café ou chá. Irresistíveis!</p>
+                <button class="btn btn-outline">Ver Detalhes</button>
+              </div>
+            </div>
+          </a>
+
+          <a href="html/produtos.html" class="card-produto-link">
+            <div class="card-produto">
+              <div class="img-produto">
+                <img src="assets/images/bolos.JPG" alt="Confeitaria">
+              </div>
+              <div class="conteudo-produto">
+                <h3 class="titulo-produto">Confeitaria</h3>
+                <p class="desc-produto">A arte de adoçar a vida. Bolos e rocamboles que transformam qualquer ocasião em uma celebração especial. Sabor e beleza únicos!</p>
+                <button class="btn btn-outline">Ver Detalhes</button>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="produtos-grid">
+          <a href="html/produtos.html" class="card-produto-link">
+            <div class="card-produto">
+              <div class="img-produto">
+                <img src="assets/images/paes.png" alt="Pães Artesanais">
+              </div>
+              <div class="conteudo-produto">
+                <h3 class="titulo-produto">Pães</h3>
+                <p class="desc-produto">O aroma que abraça a alma. Pães fresquinhos, feitos com fermentação natural e ingredientes de alta qualidade. Tradição e sabor na sua mesa.</p>
+                <button class="btn btn-outline">Ver Detalhes</button>
+              </div>
+            </div>
+          </a>
+          
+          <a href="html/produtos.html" class="card-produto-link">
+            <div class="card-produto">
+              <div class="img-produto">
+                <img src="assets/images/rosquinhas.JPG" alt="Roscas">
+              </div>
+              <div class="conteudo-produto">
+                <h3 class="titulo-produto">Roscas</h3>
+                <p class="desc-produto">Massas doces deliciosas, maciez e sabor que confortam. Receitas de família que trazem a doçura e a textura perfeita para seu café da manhã ou lanche.</p>
+                <button class="btn btn-outline">Ver Detalhes</button>
+              </div>
+            </div>
+          </a>
+
+          <a href="html/produtos.html" class="card-produto-link">
+            <div class="card-produto">
+              <div class="img-produto">
+                <img src="assets/images/salgados.JPG" alt="Salgados">
+              </div>
+              <div class="conteudo-produto">
+                <h3 class="titulo-produto">Salgados</h3>
+                <p class="desc-produto">Opções saborosas para qualquer hora! Assados e fritos recheados com os melhores ingredientes. A solução perfeita para seu lanche ou evento.</p>
+                <button class="btn btn-outline">Ver Detalhes</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao-contato">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <h2 class="titulo-secao">
+            Entre em Contato <span class="titulo-destaque">Conosco</span>
+          </h2>
+        </div>
+
+        <div class="contato-grid">
+          <div class="info-contato">
+            <div class="card-info">
+              <div class="icone-info"><i class="fa-solid fa-map-pin"></i></div>
+              <div class="conteudo-info">
+                <h4 class="titulo-info">Endereço</h4>
+                <p class="texto-info">Av. Júlia Fernandes Caixeta, nº 474<br>Cidade Nova, Patos de Minas MG, 38706-420</p>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="icone-info"><i class="fa-solid fa-phone"></i></div>
+              <div class="conteudo-info">
+                <h4 class="titulo-info">Telefone</h4>
+                <p class="texto-info">(34) 3820-1900</p>
+              </div>
+            </div>
+             <div class="card-info">
+              <div class="icone-info"><i class="fa-solid fa-envelope"></i></div>
+              <div class="conteudo-info">
+                <h4 class="titulo-info">E-mail</h4>
+                <p class="texto-info">comercial@panattos.com.br</p>
+              </div>
+            </div>
+
+            <div class="mapa-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.0108513206333!2d-46.51819222503458!3d-18.618581682494057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ae600086e29b17%3A0xb5dccf7de0577308!2sPanattos%20Alimentos%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1763751021888!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="area-formulario">
+            <div class="container-form">
+              <h3 class="titulo-form">Solicite um Orçamento</h3>
+              <form class="form-contato" id="formContato" action="mailto:lauramarques@unipam.edu.br" method="post" enctype="text/plain">
+                
+                <div class="grupo-form">
+                    <label class="label-form" for="assunto">Assunto *</label>
+                    <select id="assunto" class="input-form" required>
+                        <option value="" disabled selected>Selecione um Assunto</option>
+                        <option value="Quero ser cliente">Quero ser cliente</option>
+                        <option value="Novos Produtos">Novos Produtos</option>
+                        <option value="Dúvidas sobre minha entrega">Dúvidas sobre minha entrega</option>
+                        <option value="Dúvidas sobre comodatos">Dúvidas sobre comodatos</option>
+                        <option value="2ª via de Nota Fiscal">2ª via de Nota Fiscal</option>
+                        <option value="Defeitos em equipamentos">Defeitos em equipamentos</option>
+                        <option value="Reclamações">Reclamações</option>
+                        <option value="Sugestões e Elogios">Sugestões e Elogios</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+
+                <div class="linha-form">
+                  <div class="grupo-form">
+                    <label class="label-form" for="nome">Nome Completo *</label>
+                    <input type="text" id="nome" name="Nome" class="input-form" required placeholder="Seu nome">
+                  </div>
+                  <div class="grupo-form">
+                    <label class="label-form" for="empresa">Empresa</label>
+                    <input type="text" id="empresa" name="Empresa" class="input-form" placeholder="Sua empresa">
+                  </div>
+                </div>
+                
+                <div class="linha-form">
+                   <div class="grupo-form">
+                    <label class="label-form" for="cidade">Cidade *</label>
+                    <input type="text" id="cidade" name="Cidade" class="input-form" required placeholder="Sua cidade">
+                  </div>
+                   <div class="grupo-form">
+                    <label class="label-form" for="telefone">Telefone *</label>
+                    <input type="tel" id="telefone" name="Telefone" class="input-form" required placeholder="(XX) XXXX-XXXX">
+                  </div>
+                </div>
+                
+                <div class="grupo-form">
+                    <label class="label-form" for="email">E-mail *</label>
+                    <input type="email" id="email" name="Email" class="input-form" required placeholder="seu.email@exemplo.com">
+                </div>
+                
+                <div class="grupo-form">
+                   <label class="label-form" for="mensagem">Mensagem</label>
+                   <textarea id="mensagem" name="Mensagem" class="textarea-form" rows="4" placeholder="Detalhe sua solicitação aqui."></textarea>
+                </div>
+                
+                <div class="grupo-form">
+                    <label class="label-form">Verificação de Segurança *</label>
+                    <div class="recaptcha-placeholder">
+                        [reCAPTCHA Placeholder: A integração real requer scripts e backend]
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primario btn-full">
+                  <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-conteudo">
+        <div class="rodape-info">
+          <img src="assets/images/logo.png" alt="Panattos" class="rodape-logo">
+          <p class="rodape-desc">Panattos Alimentos. Se é Panattos, claro que sim!</p>
+        </div>
+        
+        <div class="rodape-links">
+          <h3 class="titulo-links">Links Rápidos</h3>
+          <ul class="lista-links">
+            <li><a href="#inicio" class="link-rodape">Início</a></li>
+            <li><a href="#sobre" class="link-rodape">Sobre a Panattos</a></li>
+            <li><a href="#produtos" class="link-rodape">Produtos</a></li>
+            <li><a href="#contato" class="link-rodape">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="rodape-social">
+          <h3 class="titulo-links">Redes Sociais</h3>
+          <div class="icones-social">
+            <a href="https://www.instagram.com/panattos.alimentos/" class="link-social" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+      </div>
+      
+      <div class="rodape-bottom">
+        <p>© 2025 Panattos Alimentos. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="btnTopo" class="btn-topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/inicio.js"></script>
+</body>
+</html>

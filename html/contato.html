@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panattos - Entre em Contato</title>
+  
+  <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="../css/inicio.css">
+  <link rel="stylesheet" href="../css/contato.css">
+  
+  <script src="https://kit.fontawesome.com/120e00bc6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header class="cabecalho" id="cabecalhoPrincipal">
+    <div class="container">
+      <div class="cabecalho-conteudo">
+
+        <div class="logo">
+          <a href="../index.html"><img src="../assets/images/logo.png" alt="Panattos Alimentos" class="logo-img"></a>
+        </div>
+
+        <nav class="nav-desktop">
+          <a href="../index.html" class="nav-link">Início</a>
+          <a href="sobre.html" class="nav-link">Sobre</a>
+          <a href="produtos.html" class="nav-link">Produtos</a>
+          <a href="contato.html" class="nav-link active">Contato</a> </nav>
+
+        <div class="portal-vendas">
+          <button class="btn btn-primario btn-portal" onclick="window.open('https://panattos.zydon.com.br', '_blank')">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Portal do Cliente
+          </button>
+        </div>
+
+        <button class="btn-menu-mobile" id="btnMenuMobile">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+    </div>
+
+    <div class="menu-mobile" id="menuMobile">
+      <div class="menu-mobile-conteudo">
+        <a href="../index.html" class="mobile-nav-link">Início</a>
+        <a href="sobre.html" class="mobile-nav-link">Sobre</a>
+        <a href="produtos.html" class="mobile-nav-link">Produtos</a>
+        <a href="contato.html" class="mobile-nav-link active">Contato</a>
+
+        <div class="mobile-contato-extra">
+          <button class="btn btn-primario btn-full" onclick="window.open('https://panattos.zydon.com.br', '_blank')">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Portal do Cliente
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-contato">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="titulo-hero">Fale <span class="titulo-destaque">Conosco</span></h1>
+        <p class="subtitulo-hero">Estamos prontos para atender suas dúvidas e solicitações.</p>
+      </div>
+    </section>
+
+    <section class="secao-pagina-contato">
+      <div class="container">
+        
+        <div class="layout-grid-contato">
+          
+          <div class="coluna-info">
+            <h2 class="titulo-secao">Nossos <span class="titulo-destaque">Canais</span></h2>
+            
+            <div class="lista-infos">
+                <div class="card-info">
+                  <div class="icone-info"><i class="fa-solid fa-map-pin"></i></div>
+                  <div class="conteudo-info">
+                    <h4 class="titulo-info">Endereço</h4>
+                    <p class="texto-info">Av. Júlia Fernandes Caixeta, nº 474<br>Cidade Nova, Patos de Minas MG</p>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <div class="icone-info"><i class="fa-solid fa-phone"></i></div>
+                  <div class="conteudo-info">
+                    <h4 class="titulo-info">Telefone</h4>
+                    <p class="texto-info">(34) 3820-1900</p>
+                  </div>
+                </div>
+                 <div class="card-info">
+                  <div class="icone-info"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="conteudo-info">
+                    <h4 class="titulo-info">E-mail</h4>
+                    <p class="texto-info">comercial@panattos.com.br</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="mapa-container-page">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.702717997935!2d-46.65759902517621!3d-23.578688461877813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a60f9a2b53%3A0x6e355c4d3d2e6a10!2sAv.%20Industrial%2C%201250%20-%20Jabaquara%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004301-010!5e0!3m2!1spt-BR!2sbr!4v1700438400000!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="coluna-form">
+            <div class="container-form">
+                <h3 class="titulo-form">Solicite um Orçamento</h3>
+                <form class="form-contato" id="formContato" action="mailto:lauramarques@unipam.edu.br" method="post" enctype="text/plain">
+                  
+                  <div class="grupo-form">
+                      <label class="label-form" for="assunto">Assunto *</label>
+                      <select id="assunto" class="input-form" required>
+                          <option value="" disabled selected>Selecione um Assunto</option>
+                          <option value="Quero ser cliente">Quero ser cliente</option>
+                          <option value="Novos Produtos">Novos Produtos</option>
+                          <option value="Dúvidas sobre minha entrega">Dúvidas sobre minha entrega</option>
+                          <option value="Dúvidas sobre comodatos">Dúvidas sobre comodatos</option>
+                          <option value="2ª via de Nota Fiscal">2ª via de Nota Fiscal</option>
+                          <option value="Defeitos em equipamentos">Defeitos em equipamentos</option>
+                          <option value="Reclamações">Reclamações</option>
+                          <option value="Sugestões e Elogios">Sugestões e Elogios</option>
+                          <option value="Outros">Outros</option>
+                      </select>
+                  </div>
+  
+                  <div class="linha-form">
+                    <div class="grupo-form">
+                      <label class="label-form" for="nome">Nome Completo *</label>
+                      <input type="text" id="nome" name="Nome" class="input-form" required placeholder="Seu nome">
+                    </div>
+                    <div class="grupo-form">
+                      <label class="label-form" for="empresa">Empresa</label>
+                      <input type="text" id="empresa" name="Empresa" class="input-form" placeholder="Sua empresa">
+                    </div>
+                  </div>
+                  
+                  <div class="linha-form">
+                     <div class="grupo-form">
+                      <label class="label-form" for="cidade">Cidade *</label>
+                      <input type="text" id="cidade" name="Cidade" class="input-form" required placeholder="Sua cidade">
+                    </div>
+                     <div class="grupo-form">
+                      <label class="label-form" for="telefone">Telefone *</label>
+                      <input type="tel" id="telefone" name="Telefone" class="input-form" required placeholder="(XX) XXXX-XXXX">
+                    </div>
+                  </div>
+                  
+                  <div class="grupo-form">
+                      <label class="label-form" for="email">E-mail *</label>
+                      <input type="email" id="email" name="Email" class="input-form" required placeholder="seu.email@exemplo.com">
+                  </div>
+                  
+                  <div class="grupo-form">
+                     <label class="label-form" for="mensagem">Mensagem</label>
+                     <textarea id="mensagem" name="Mensagem" class="textarea-form" rows="4" placeholder="Detalhe sua solicitação aqui."></textarea>
+                  </div>
+                  
+                  <div class="grupo-form">
+                      <label class="label-form">Verificação de Segurança *</label>
+                      <div class="recaptcha-placeholder">
+                          [reCAPTCHA Placeholder: A integração real requer scripts e backend]
+                      </div>
+                  </div>
+  
+                  <button type="submit" class="btn btn-primario btn-full">
+                    <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação
+                  </button>
+                </form>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-conteudo">
+        <div class="rodape-info">
+          <img src="../assets/images/logo.png" alt="Panattos" class="rodape-logo">
+          <p class="rodape-desc">Panattos Alimentos. Se é Panattos, claro que sim!</p>
+        </div>
+        
+        <div class="rodape-links">
+          <h3 class="titulo-links">Links Rápidos</h3>
+          <ul class="lista-links">
+            <li><a href="../index.html" class="link-rodape">Início</a></li>
+            <li><a href="sobre.html" class="link-rodape">Sobre a Panattos</a></li>
+            <li><a href="produtos.html" class="link-rodape">Produtos</a></li>
+            <li><a href="contato.html" class="link-rodape">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="rodape-social">
+          <h3 class="titulo-links">Redes Sociais</h3>
+          <div class="icones-social">
+            <a href="https://www.instagram.com/panattos.alimentos/" class="link-social" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+      </div>
+      
+      <div class="rodape-bottom">
+        <p>© 2025 Panattos Alimentos. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/contato.js"></script>
+</body>
+</html>
