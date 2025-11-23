@@ -441,10 +441,10 @@
 
                   <div class="grupo-form">
                       <label class="label-form">Verificação de Segurança *</label>
-                      <div class="g-recaptcha" data-sitekey="6LcjEBYsAAAAAKZferlxlW_s3v7d9aq5oznZ08eu"></div>
+                      <div class="g-recaptcha" data-sitekey="6LcjEBYsAAAAAKZferlxlW_s3v7d9aq5oznZ08eu" data-callback="recaptchaMarcado" data-expired-callback="recaptchaExpirou"></div>
                   </div>
               
-                  <button type="submit" class="btn btn-primario btn-full">
+                  <button type="submit" class="btn btn-primario btn-full" id="btnEnviar" disabled>
                     <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação
                   </button>
               </form>
@@ -493,9 +493,25 @@
 
   
   <script src="js/inicio.js"></script>
+  <script>
+    function recaptchaMarcado() {
+        var botao = document.getElementById("btnEnviar");
+        botao.disabled = false;
+        botao.style.opacity = "1";
+        botao.style.cursor = "pointer";
+    }
+
+    function recaptchaExpirou() {
+        var botao = document.getElementById("btnEnviar");
+        botao.disabled = true;
+        botao.style.opacity = "0.5";
+        botao.style.cursor = "not-allowed";
+    }
+</script>
 </body>
 
 </html>
+
 
 
 

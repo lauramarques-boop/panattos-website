@@ -30,6 +30,8 @@
     line-height: 1; 
     margin-bottom: 0.5rem;
 }
+
+.titulo-destaque-hero {color: #D21C1A; font-size: 2.5rem;}
   
 .subtitulo-hero { 
     font-size: 1.1rem; 
@@ -86,8 +88,10 @@
         min-height: 300px;
     }
 
-    .titulo-hero {font-size: 3.5rem;}
-    .titulo-secao {font-size: 2.5rem;}
+    .titulo-hero, .titulo-destaque-hero {font-size: 3.5rem;}
+    .titulo-secao, .titulo-destaque {font-size: 2.5rem;}
 
 }
+
+
 
