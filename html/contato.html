@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/contato.css">
   
   <script src="https://kit.fontawesome.com/120e00bc6d.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -109,7 +110,7 @@
           <div class="coluna-form">
             <div class="container-form">
                 <h3 class="titulo-form">Solicite um Orçamento</h3>
-                <form class="form-contato" id="formContato" action="mailto:lauramarques@unipam.edu.br" method="post" enctype="text/plain">
+                <form class="form-contato" id="formContato" action="https://formspree.io/f/mrbdverd" method="post" enctype="text/plain">
                   
                   <div class="grupo-form">
                       <label class="label-form" for="assunto">Assunto *</label>
@@ -158,6 +159,11 @@
                      <label class="label-form" for="mensagem">Mensagem</label>
                      <textarea id="mensagem" name="Mensagem" class="textarea-form" rows="4" placeholder="Detalhe sua solicitação aqui."></textarea>
                   </div>
+
+                  <div class="grupo-form">
+                    <label class="label-form">Verificação de Segurança *</label>
+                    <div class="g-recaptcha" data-sitekey="6LcjEBYsAAAAAKZferlxlW_s3v7d9aq5oznZ08eu"></div>
+                </div>
   
                   <button type="submit" class="btn btn-primario btn-full">
                     <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação
@@ -207,4 +213,8 @@
 </body>
 
 </html>
+
+
+
+
 
