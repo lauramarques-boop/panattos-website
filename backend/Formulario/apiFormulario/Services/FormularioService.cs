@@ -228,12 +228,12 @@ public class FormularioService : IFormularioService
             
             <p>Se você tiver alguma dúvida urgente, entre em contato diretamente:</p>
             <div class='phone-box'>
-                <p>(34) 3821-XXXX</p>
+                <p>(34) 3820-1900</p>
             </div>
             
             <div class='signature'>
                 <p>Atenciosamente,</p>
-                <p><strong>Equipe Panattos Equipamentos</strong></p>
+                <p><strong>Equipe Panattos Alimentos</strong></p>
             </div>
         </div>
         <div class='footer'>
