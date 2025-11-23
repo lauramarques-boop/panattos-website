@@ -388,7 +388,7 @@
           <div class="area-formulario">
             <div class="container-form">
               <h3 class="titulo-form">Solicite um Orçamento</h3>
-              <form class="form-contato" id="formContato" action="mailto:lauramarques@unipam.edu.br" method="post" enctype="text/plain">
+              <form class="form-contato" id="formContato" action="https://formspree.io/f/mrbdverd" method="post" enctype="text/plain">
                 
                 <div class="grupo-form">
                     <label class="label-form" for="assunto">Assunto *</label>
@@ -438,16 +438,14 @@
                    <textarea id="mensagem" name="Mensagem" class="textarea-form" rows="4" placeholder="Detalhe sua solicitação aqui."></textarea>
                 </div>
 
-                <div class="grupo-form">
-                    <label class="label-form">Verificação de Segurança *</label>
-                    <div class="recaptcha-placeholder">
-                        [reCAPTCHA Placeholder: A integração real requer scripts e backend]
-                    </div>
-                </div>
-
-                <button type="submit" class="btn btn-primario btn-full">
-                  <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação
-                </button>
+                  <div class="grupo-form">
+                      <label class="label-form">Verificação de Segurança *</label>
+                      <div class="g-recaptcha" data-sitekey="6LcWDRYsAAAAAGLakQcu1y00yfLTwPlIRjK0IDEm"></div>
+                  </div>
+              
+                  <button type="submit" class="btn btn-primario btn-full">
+                    <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação
+                  </button>
               </form>
             </div>
           </div>
@@ -492,8 +490,10 @@
     <i class="fa-solid fa-arrow-up"></i>
   </button>
 
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="js/inicio.js"></script>
 </body>
 
 </html>
+
 
