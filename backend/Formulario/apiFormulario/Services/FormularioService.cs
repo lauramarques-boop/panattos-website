@@ -134,7 +134,7 @@ public class FormularioService : IFormularioService
     <div class='container'>
         <div class='header'>
             <h1>📩 Novo Contato Recebido</h1>
-            <p>Formulário de Contato - <span class='gold-accent'>Panattos Equipamentos</span></p>
+            <p>Formulário de Contato - <span class='gold-accent'>Panattos Alimentos</span></p>
         </div>
         <div class='content'>
             <h2>Informações do Contato</h2>
@@ -173,7 +173,7 @@ public class FormularioService : IFormularioService
         </div>
         <div class='footer'>
             <p>Este é um email automático do sistema de contato.</p>
-            <p>© 2025 <strong>Panattos Equipamentos</strong> - Todos os direitos reservados</p>
+            <p>© 2025 <strong>Panattos Alimentos</strong> - Todos os direitos reservados</p>
         </div>
     </div>
 </body>
@@ -214,7 +214,7 @@ public class FormularioService : IFormularioService
         <div class='header'>
             <div class='check-icon'>✅</div>
             <h1>Recebemos seu contato!</h1>
-            <p><span class='gold-text'>Panattos Equipamentos</span></p>
+            <p><span class='gold-text'>Panattos Alimentos</span></p>
         </div>
         <div class='content'>
             <p>Olá <strong>{nomeCompleto}</strong>,</p>
@@ -238,7 +238,7 @@ public class FormularioService : IFormularioService
         </div>
         <div class='footer'>
             <p>Este é um email automático de confirmação.</p>
-            <p>© 2025 <strong>Panattos Equipamentos</strong> - Todos os direitos reservados</p>
+            <p>© 2025 <strong>Panattos Alimentos</strong> - Todos os direitos reservados</p>
         </div>
     </div>
 </body>
